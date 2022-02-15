@@ -1,0 +1,311 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMncfyo3F86XWo5CXs9cPzB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JessicaLuana88/Engenheiro-de-dados/blob/main/Calculadora%20em%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "7TQ4FJe7vAOQ"
+      },
+      "outputs": [],
+      "source": [
+        "A = 1"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "B = 3"
+      ],
+      "metadata": {
+        "id": "WwvTRDLyvCb6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "C = 7"
+      ],
+      "metadata": {
+        "id": "nP1WbDu9vWXB"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "D = 5"
+      ],
+      "metadata": {
+        "id": "q6CtNXZfvWCb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "E = 10"
+      ],
+      "metadata": {
+        "id": "KFMgHi2cvVpd"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "F = 12"
+      ],
+      "metadata": {
+        "id": "m8kfG8TVvVlB"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "G = 18"
+      ],
+      "metadata": {
+        "id": "d5rg8K01vVKh"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "H = 20"
+      ],
+      "metadata": {
+        "id": "n8mr1DQGvggi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "I = 4"
+      ],
+      "metadata": {
+        "id": "xfM4eNUwvmTm"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "J = 1205"
+      ],
+      "metadata": {
+        "id": "9OZ5X6KcvnIy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Soma = A + B\n",
+        "Multiplicar =  C* D\n",
+        "subtracao = E-F\n",
+        "Divisao = 35/4\n",
+        "Imprimir = J/105"
+      ],
+      "metadata": {
+        "id": "IyKubjLXvH-6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (Multiplicar)\n",
+        "print (Soma)\n",
+        "print (Divisao)\n",
+        "print (subtracao)\n",
+        "print (Imprimir)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5thvbcjKwP36",
+        "outputId": "f38d29c5-c6a8-41ce-9828-962d98ec92a8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "35\n",
+            "4\n",
+            "8.75\n",
+            "-2\n",
+            "11.476190476190476\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = 8"
+      ],
+      "metadata": {
+        "id": "3odNFYBCQNMr"
+      },
+      "execution_count": 14,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (numero)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kypADOTTShxb",
+        "outputId": "654c7c5e-eddf-4782-f63a-fb3dbc248ab1"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if (numero) % 2 == 1:\n",
+        "   print('impar')\n",
+        "else:\n",
+        "    print('par')\n",
+        "  "
+      ],
+      "metadata": {
+        "id": "3AM0dCD5Qd5W",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "6e80eb04-89f4-48ca-9879-ebab674e88b5"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "par\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"                          Seja Bem-Vindo                          \")\n",
+        "print(\"\")\n",
+        "print(\"\")\n",
+        "\n",
+        "num1 = 0\n",
+        "num2 = 0\n",
+        "\n",
+        "num1 = int(input('Digite um número: '))\n",
+        "cal = input(\"Digite a operação desejada: \")\n",
+        "num2 = int(input('Digite um número: '))\n",
+        "\n",
+        "if cal == \"+\":\n",
+        "  resul = num1 + num2\n",
+        "elif cal == \"-\":\n",
+        "  resul = num1 - num2\n",
+        "elif cal == \"/\":\n",
+        "  resul = num1 / num2\n",
+        "elif cal == \"*\":\n",
+        "  resul = num1 * num2\n",
+        "\n",
+        "\n",
+        "print(\"\")\n",
+        "print(\"O resultado é: \", resul)"
+      ],
+      "metadata": {
+        "id": "vJ8gGYnaTclI",
+        "outputId": "dc0a0893-f557-4bb2-d90d-549d470323e9",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 74,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                          Seja Bem-Vindo                          \n",
+            "\n",
+            "\n",
+            "Digite um número: 3\n",
+            "Digite a operação desejada: /\n",
+            "Digite um número: 1\n",
+            "\n",
+            "O resultado é:  3.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "U6Hp7DIfMN1c"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
